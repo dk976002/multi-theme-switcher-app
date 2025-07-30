@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme 1: Minimalist layout, light background, sans-serif font */
+.theme1 {
+  @apply bg-white text-gray-900 font-sans;
+}
+
+/* Theme 2: Dark mode with sidebar feel, bold serif font */
+.theme2 {
+  @apply bg-gray-900 text-white font-serif;
+}
+
+/* Theme 3: Colorful gradient theme with card grid layout and Pacifico font */
+.theme3 {
+  @apply bg-gradient-to-br from-yellow-100 via-pink-200 to-purple-200 text-purple-900 font-pacifico;
+}
+
+/* Button styles used across themes */
+button {
+  @apply mt-4 px-4 py-2 rounded transition-all;
+}
