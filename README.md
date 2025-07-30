@@ -4,6 +4,10 @@ Multi-Theme Switcher App
 
 This project is a multi-theme React application built using TypeScript, Vite, Tailwind CSS, and React Router. It demonstrates theme switching, routing, API integration, and responsive design.
 
+# Live Demo
+
+https://multi-theme-switcher-app.vercel.app/
+
 # Features
 
 Three distinct themes:
@@ -30,6 +34,7 @@ TypeScript and Tailwind CSS for scalable frontend development
 
 No large UI libraries used
 
+# Getting Started Locally (Optional)
 
 # Installation
 
@@ -42,7 +47,7 @@ cd multi-theme-switcher-app
 
 npm install
 
-Run the development server
+# Run the development server
 
 npm run dev
 
@@ -56,33 +61,3 @@ npm run build
 
 npm run preview
 
-
-# Installation
-
-# Clone the repository
-
-git clone https://github.com/your-username/multi-theme-switcher-app.git
-cd multi-theme-switcher-app
-
-# Create a .env file in the root directory (or copy from .env.example):
-
-VITE_API_URL= https://fakestoreapi.com/products
-
-
-# Install dependencies
-
-npm install
-
-Run the development server
-
-npm run dev
-
-The app will be available at: http://localhost:5173
-
-# Build for Production
-
-npm run build
-
-# To preview the build:
-
-npm run preview
