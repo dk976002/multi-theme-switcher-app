@@ -1,4 +1,9 @@
 import React from 'react';
+
+
+/**
+ * Card component displays a product with image, title, and price.
+ */
 interface CardProps {
   title: string;
   price: number;

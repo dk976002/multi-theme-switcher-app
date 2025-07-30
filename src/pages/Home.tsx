@@ -1,6 +1,9 @@
 import React from 'react';
 import CardList from '../components/CardList';
-
+/**
+ * Home page of the app.
+ * Displays a title, a sample paragraph,a button, and the list of product cards.
+ */
 const Home = () => {
   return (
     <div>

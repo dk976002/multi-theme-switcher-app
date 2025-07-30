@@ -1,5 +1,7 @@
 import React from 'react';
-
+/**
+ * Contact page displays static contact information.
+ */
 const Contact = () => {
   return (
     <div>

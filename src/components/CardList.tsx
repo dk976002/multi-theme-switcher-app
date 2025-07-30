@@ -9,13 +9,18 @@ interface Product {
   price: number;
   image: string;
 }
-
+/**
+ * CardList component fetches and displays a list of product cards.
+ * Data is fetched using Axios from the public FakeStore API.
+ */
 const CardList = () => {
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
+
+// Fetch the API endpoint from environment variables
   const urlPath = import.meta.env.VITE_API_URL;
 
-
+  // Fetch product data when component mounts
   useEffect(() => {
     axios.get(urlPath)
       .then(response => {

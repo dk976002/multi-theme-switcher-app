@@ -9,6 +9,9 @@ import { useTheme } from './context/ThemeContext';
 const App = () => {
   const { theme } = useTheme();
 
+/**
+ * Root App component that sets up routing and theme context.
+ */
   return (
     <div className={`min-h-screen transition-all duration-500 ${theme}`}>
       <Header />

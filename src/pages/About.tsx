@@ -1,5 +1,7 @@
 import React from 'react';
-
+/**
+ * About page displays static information.
+ */
 const About = () => {
   return (
     <div>
